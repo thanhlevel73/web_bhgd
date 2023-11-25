@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.logo img{
+    width: 200px;
+    margin-left: 100px;
+}
+#header{
+    height: 150px;
+}
+.logo input{
+    height: 35px;
+    width: 420px;
+    border-radius: 20px;
+    margin-left: 450px;
+    top: -40px;
+    position: relative;
+    outline: none;
+    border: none;
+    background-color: rgba(93, 93, 93, 0.03);
+}
+.logo button{
+    font-size: 15px;
+    height: 35px;
+    width: 75px;
+    border-radius: 20px;
+    margin-left: 10px;
+    top: -40px;
+    position: relative;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+#menu li{
+    display: inline-block;
+    margin-left: 100px;
+    height: 50px;
+}
+#menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #626A67;
+}
+#menu{
+    position: absolute;
+    top: 150px;
+    margin-left: 50px;
+}
+#menu li a:hover{
+    color: #FF0000;
+}
+#menu .subnav{
+    position: absolute;
+}
+.subnav{
+    left: 180px;
+    background-color: #ffffff;
+    top:50px;
+    width: 280px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 60px;
+    position:absolute;
+    display: none;
+}
+#menu li:hover .subnav{
+    display: block;
+}
+#login{
+    height: 130px;
+}
+.login1 img{
+    height: 40px;
+    width: 40px;
+    left: 1200px;
+    top
+    : -84px;
+    position: relative;
+    outline: none;
+    border: none;
+}
+.giohang img{
+    height: 60px;
+    width: 70px;
+    left: 1300px;
+    top: -135px;
+    position: relative;
+    outline: none;
+    border: none;
+}
+.grid {
+    width: 1200px;
+   max-width: 100%;
+   margin: 0 auto;  
+}
+.grid1__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid__row1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+}
+.grid__row1 img{
+    width: 80%;
+    margin-left: 130px;
+}
+.grid__row2 p{
+    margin-left: 230px;
+    font-size: 30px;
+    line-height: 45px;
+}
+.gia{
+    margin-top: 10px;
+    margin-left: 295px;
+    font-size: 20px;
+}
+.gia1 li {
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.gh1 a{
+    position: absolute;
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 300px;
+    color: black;
+}
+button a{
+    width: 200px;
+    height: 28px;
+    margin-top: 30px;
+    background-color: #626A67;
+}
+.gh1 a:hover
+{
+    color: #33FF33;
+}
+#footer{
+    height: 325px;
+    margin-top: 100px; 
+    padding: 0px 63px;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #626A67;
+}
+
+#footer .logo img{
+    margin-left: 20px;
+}
+#footer h1 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#footer h2 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#footer .box{
+    width: 250px;
+    color: #fff;
+}
+#footer .box .menu1{
+    margin-top: 40px;
+}
+#footer .box .menu1 .item li{
+    margin-bottom: 15px;
+}
+#footer .box .menu1 .item li a{
+   
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu1 li:hover a
+{
+    color: #FF0000;
+}
+#footer .box form input{
+    width: 290px;
+    margin-top: 25px;
+    height: 40px;
+    background: transparent;
+    padding-left: 20px;
+    color: #fff;
+}
+#footer .box form button{
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    box-shadow: 5px 5px 4px;
+}
+
+.social-link a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-top: 60px;
+    font-size: 35px;
+}
+.social-link-facebook{
+    color: #3b5998;
+}
+
+.social-link a i:hover{
+    color: #FFFF33;
+}
+.social-link-youtube{
+    color: #cd201f;
+}
+.social-link-twitter{
+    color: #55acee;
+}
+.menu1 li a{
+    color: #fff;
+}
+
+

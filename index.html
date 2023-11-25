@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.2-web/css/all.min.css">
+    <title>Web bán hàng gia dụng</title>
+</head>
+<body>
+    <div id="header">
+    <ul class="logo">
+        <img src="https://bizweb.dktcdn.net/100/021/600/themes/28344/assets/logo.png?1578975313653" alt="">
+        <form action="">
+        <input type="text" placeholder="Từ khóa cần tìm kiếm">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <ul id="menu">
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="#sliser">Sản phẩm
+                <ul class="subnav">
+                    <li><a href="">Đồ gia dụng</a></li>
+                    <li><a href="">Bếp điện, Bếp điện từ</a></li>
+                    <li><a href="">Đèn nhà bếp</a></li>
+                    <li><a href="">Gia dụng, tủ bếp</a></li>
+                </ul>
+            </a>
+            </li>
+            <li><a href="/gioithieu.html">Giới thiệu</a></li>
+            <li><a href="#footer">Liên hệ</a></li>
+        </ul>
+    </ul>
+    <div id="login">
+        <ul class="login1">
+            <li><a href="./dangnhap.html"><img src="https://icons.iconarchive.com/icons/custom-icon-design/silky-line-user/512/users-icon.png"></a></li>
+            </ul>
+        </ul>
+        <ul class="giohang">
+            <li><a href="/giohang.html"><img src="data:image/png;base64,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"></a></li>
+        </ul>
+    </div>
+    <div id="slide">
+        <ul class="iteam">
+            <li><a href=""><img src="https://bizweb.dktcdn.net/100/021/600/themes/28344/assets/banner-bg.jpg?1578975313653" alt=""></a></li>
+        </ul>
+    </div>
+    <div id="sliser">
+        <ul class="hungtong">
+        <ul class="hung1">
+            <li><a href="/ctsanpham1.html"><img src="https://cdn.tgdd.vn/Products/Images/1922/73994/sharp-ks-18tjv-thumb-300x300.jpg" alt=""></a></li>
+            <p class="item_txt_tieude1"><a href="">Nồi cơm nắp gài Sharp</a></p>
+            <span class="giatien1"><strong><a href="">379.000VND </a></strong></span>
+            <button class="btn1"><a href="/giohang.html">Thêm vào giỏ hàng</a></button>
+        </ul>
+        <ul class="hung2">
+            <li><a href="/ctsanpham2.html"><img src="https://cdn.tgdd.vn/Products/Images/1982/285114/ava-ai-32-1.-300x300.jpg" alt=""></a></li>
+            <p class="item_txt_tieude2"><a href="">Sunhouse SHD6867</a></p>
+            <span class="giatien2"><strong><a href="">1.360.000VND </a></strong></span>
+            <button class="btn2"><a href="/giohang.html">Thêm vào giỏ hàng</a></button>
+        </ul>
+        <ul class="hung3">
+            <li><a href="/ctsanpham3.html"><img src="https://cdn.tgdd.vn/Products/Images/2063/226767/kangaroo-kg5201-52-lit-080223-035916-300x300.jpg" alt=""></a></li>
+            <p class="item_txt_tieude3"><a href="">Lò nướng Kangaroo KG5201</a></p>
+            <span class="giatien3"><strong><a href="">2.290.000VND </a></strong></span>
+            <button class="btn3"><a href="/giohang.html">Thêm vào giỏ hàng</a></button>
+        </ul>
+        <ul class="hung4">
+            <li><a href="/ctsanpham4.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/021/600/products/bo-3-noi-inox-cao-cap-5-day-kangaroo%2520(1).jpg?v=1444702733277" alt=""></a></li>
+            <p class="item_txt_tieude4"><a href="">Bộ 3 nồi cao cấp Kangaroo</a></p>
+            <span class="giatien4"><strong><a href="">1.099.000VND </a></strong></span>
+            <button class="btn4"><a href="/giohang.html">Thêm vào giỏ hàng</a></button>
+        </ul>
+        <ul class="hung5">
+            <li><a href="/ctsanpham5.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/021/600/products/may-xay-sinh-to-blacker%2520(2).jpg?v=1444702733307" alt=""></a></li>
+            <p class="item_txt_tieude5"><a href="">Máy xay sinh tố Blacker BL295</a></p>
+            <span class="giatien5"><strong><a href="">450.000VND </a></strong></span>
+            <button class="btn5"><a href="giohang.html">Thêm vào giỏ hàng</a></button>
+        </ul>
+        <ul class="hung6">
+            <li><a href="/ctsanpham6.html"><img src="https://cdn.tgdd.vn/Products/Images/3385/202989/may-loc-nuoc-ro-sunhouse-sha8858k-8-loi-150223-101507-600x600.jpg" alt=""></a></li>
+            <p class="item_txt_tieude6"><a href="">Máy lọc nước Sunhouse SHA8858K</a></p>
+            <span class="giatien6"><strong><a href="">3.790.000VND </a></strong></span>
+            <button class="btn6"><a href="/giohang.html">Thêm vào giỏ hàng</a></button>
+        </ul>
+        <ul class="hung7">
+            <li><a href="/ctsanpham7.html"><img src="https://cdn.tgdd.vn/Products/Images/9418/258338/Sunhouse-SHD4062-0-min-600x600.jpg"alt=""></a></li>
+            <p class="item_txt_tieude7"><a href="">Nồi chiên không dầu Sunhouse SHD4062</a></p>
+            <span class="giatien7"><strong><a href="">1.550.000VND </a></strong></span>
+            <button class="btn7"><a href="/giohang.html">Thêm vào giỏ hàng</a></button>
+        </ul>
+        <ul class="hung8">
+            <li><a href="/ctsanpham8.html"><img src="https://cdn.tgdd.vn/Products/Images/7498/306972/quat-dieu-hoa-sunhouse-shd7759-040923-030603-600x600.jpg"alt=""></a></li>
+            <p class="item_txt_tieude8"><a href="">Quạt điều hòa Sunhouse SHD7759</a></p>
+            <span class="giatien8"><strong><a href="">3.990.000VND </a></strong></span>
+            <button class="btn8"><a href="/giohang.html">Thêm vào giỏ hàng</a></button>
+        </ul>
+        </ul>
+        <div id="footer">
+                <div class="logo">
+                    <img src="https://bizweb.dktcdn.net/100/021/600/themes/28344/assets/logo.png?1578975313653" alt="">
+                    <h1><a href="">Địa chỉ: Số 14 - P. Nam Hòa - Thị xã Quảng Yên - tỉnh Quảng Ninh</a></h1>
+                    <h2><a href="" >Tel: 0382180536</a></h2>
+                </div>    
+            <div class="box">
+                <h3>NỘI DUNG</h3>
+                <ul class="menu1">
+                    <div class="item">
+                        <li><a href="/index.html">Trang chủ</a></li>
+                        <li><a href="#sliser">Sản phẩm</a></li>
+                        <li><a href="/gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="#footer">Liên hệ</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>LIÊN HỆ</h3>
+                    <form action="">
+                        <input type="text" placeholder="Địa chỉ email">
+                        <button>Nhận tin</button>
+                    </form>
+                    <div class="social-link">
+                        <a href=""><i class="fa-brands fa-facebook social-link-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube social-link-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter social-link-twitter"></i></a>
+                    </div>
+
+            </div>
+        </div>
+    </body>
+</html>

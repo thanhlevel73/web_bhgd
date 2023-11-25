@@ -1,0 +1,165 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/cart.css">
+<link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.2-web/css/all.min.css">
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Muli', sans-serif;
+    }
+</style>
+
+
+<ul class="nav justify-content-center" style="background-color: #696969; line-height: 60px;">
+    <li class="nav-item">
+        <a class="nav-link" href="#">
+            <img src="https://bizweb.dktcdn.net/100/021/600/themes/28344/assets/logo.png?1578975313653" alt="" style="width: 100px;">
+        </a>
+    </li>
+    <li class="nav-item">
+        <div class="input-group" style="margin-top: 18px;">
+            <input type="text" class="form-control" placeholder="Tìm kiếm ..." style="width: 400px;">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary text-white" type="button" style="background-color: #362f2f; border: none;">Tìm kiếm</button>
+            </div>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/index.html" style="color: white; font-weight: 700;">Giỏ hàng</a>
+    </li>
+</ul>
+
+
+<div class="container" style="margin: 50px auto;">
+    <div class="row">
+        <div class="col-md-5" style="width: 100%; background-color: #f5f5f5; padding: 30px 20px;">
+            <h4>THÔNG TIN GIAO HÀNG</h4>
+            <form action="/" method="POST">        
+                <input type="text" placeholder="Họ và tên" style="width: 100%; padding: 5px 10px; margin: 10px 0;">
+                <input type="email" placeholder="Email" style="width: 100%; padding: 5px 10px; margin: 10px 0;">
+                <input type="text" placeholder="Số điện thoại" style="width: 100%; padding: 5px 10px; margin: 10px 0;">
+                <input type="text" placeholder="Địa chỉ" style="width: 100%; padding: 5px 10px; margin: 10px 0;">
+                <a href="/index.html" style="display: inline-block; margin-top: 10px;">Quay lại trang chủ</a>
+                <button type="submit" class="btn btn-success" style="display: block; padding: 14px 12px; float: right; margin-top: 10px;">THANH TOÁN</button>
+            </form>
+        </div>
+<div class="col-md-7" style="width: 100%; padding: 30px 20px;">
+            <h4 style="margin-bottom: 30px;">ĐƠN HÀNG CỦA BẠN</h4>
+            <table style="width: 100%; text-align: center;">
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>TÊN SẢN PHẨM</th>
+                        <th>SL</th>
+                        <th>GIÁ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom: 1px solid black; height: 70px;">
+                        <td style="width: 30%;">
+                            <img src="https://cdn.tgdd.vn/Products/Images/1922/73994/sharp-ks-18tjv-thumb-300x300.jpg" alt="" style="width: 70%;">
+                        </td style="width: 45%;">
+                        <td>Nồi cơm nắp gài Sharp</td>
+                        <td style="width: 10%;">
+                            <div class="input-group">
+                                <input type="text" class="form-control text-center" value="1">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button">+</button>
+                                    <button class="btn btn-outline-secondary" type="button">-</button>
+                                </div>
+                            </div>
+                        
+                        </td>
+                        <td style="width: 30%;">380.000 VND</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid black; height: 70px;">
+                            <td style="width: 30%;">
+                                <img src="https://bizweb.dktcdn.net/thumb/large/100/021/600/products/bo-3-noi-inox-cao-cap-5-day-kangaroo%2520(1).jpg?v=1444702733277" alt="" style="width: 70%;">
+                            </td style="width: 45%;">
+                            <td>Bộ 3 nồi cao cấp Kangaroo</td>
+                            <td style="width: 10%;">
+                                <div class="input-group">
+                                    <input type="text" class="form-control text-center" value="1">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">+</button>
+                                        <button class="btn btn-outline-secondary" type="button">-</button>
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="width: 30%;">1.100.000 VND</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid black; height: 70px;">
+                            <td style="width: 30%;">
+                                <img src="https://cdn.tgdd.vn/Products/Images/1982/285114/ava-ai-32-1.-300x300.jpg" alt="" style="width: 70%;">
+                            </td style="width: 45%;">
+                            <td>Sunhouse SHD6867</td>
+                            <td style="width: 10%;">
+                                <div class="input-group">
+                                    <input type="text" class="form-control text-center" value="1">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">+</button>
+                                        <button class="btn btn-outline-secondary" type="button">-</button>
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="width: 30%;">1.360.000 VND</td>
+                        </tr>
+                </tbody>
+                <tfoot>
+                    <tr style="height: 40px;">
+                        <td colspan="3" style="text-align: left;">Tạm tính: </td>
+                        <td colspan="1">2.840.000 VND</td>
+                    </tr>
+                    
+                    <tr style="border-bottom: 1px solid black; height: 40px;">
+                        <td colspan="3" style="text-align: left;">Phí vận chuyển: </td>
+                        <td colspan="1">--</td>
+                    </tr>
+                    <tr style="height: 60px;">
+                        <td colspan="3" style="text-align: left; font-size: 20px;">Tổng cộng: </td>
+                        <td colspan="1" style="font-size: 20px;">2.840.000 VND</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+</main>
+<div id="footer">
+    <div class="logo">
+        <img src="https://bizweb.dktcdn.net/100/021/600/themes/28344/assets/logo.png?1578975313653" alt="">
+        <h1><a href="">Địa chỉ: Số 14 - P. Nam Hòa - Thị xã Quảng Yên - tỉnh Quảng Ninh</a></h1>
+        <h2><a href="" >Tel: 0382180536</a></h2>
+    </div>    
+<div class="box">
+    <h3>NỘI DUNG</h3>
+    <ul class="menu1">
+        <div class="item">
+            <li><a href="/index.html">Trang chủ</a></li>
+            <li><a href="/index.html">Sản phẩm</a></li>
+            <li><a href="/gioithieu.html">Giới thiệu</a></li>
+            <li><a href="#footer">Liên hệ</a></li>
+        </div>
+    </ul>
+</div>
+<div class="box">
+    <h3>LIÊN HỆ</h3>
+        <form action="">
+            <input type="text" placeholder="Địa chỉ email">
+            <button>Nhận tin</button>
+        </form>
+        <div class="social-link">
+            <a href=""><i class="fa-brands fa-facebook social-link-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-youtube social-link-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-twitter social-link-twitter"></i></a>
+        </div>
+
+</div>
+</div>
+</body>
+</html>

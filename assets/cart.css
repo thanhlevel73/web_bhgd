@@ -1,0 +1,94 @@
+
+#footer{
+    height: 300px;
+    margin-top: 100px; 
+    padding: 0px 63px;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #626A67;
+}
+
+#footer .logo img{
+    margin-left: 10px;
+    width: 200px;
+}
+#footer h1 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#footer h2 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.box h3{
+    font-size: 20px;
+} 
+#footer .box{
+    width: 250px;
+    color: #fff;
+    font-size: 20px;
+}
+#footer .box .menu1{
+    margin-top: 40px;
+}
+#footer .box .menu1 .item li{
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: flex;
+}
+#footer .box .menu1 .item li a{
+   
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu1 li:hover a
+{
+    color: #FF0000;
+}
+#footer .box form input{
+    width: 290px;
+    margin-top: 25px;
+    height: 40px;
+    background: transparent;
+    padding-left: 20px;
+    color: #fff;
+}
+#footer .box form button{
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    box-shadow: 5px 5px 4px;
+}
+
+.social-link a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    font-size: 35px;
+}
+.social-link-facebook{
+    color: #3b5998;
+}
+
+.social-link a i:hover{
+    color: #FFFF33;
+}
+.social-link-youtube{
+    color: #cd201f;
+}
+.social-link-twitter{
+    color: #55acee;
+}
+.menu1 li a{
+    color: #fff;
+}
